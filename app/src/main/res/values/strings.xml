@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">AppClima</string>
+    <string name="texto_grados">23</string>
+    <string name="texto_ciudad">Quito</string>
+    <string name="texto_estado">Sol</string>
+    <string name="titulo_barra_activity_ciudad">Actividad ciudad</string>
+    <string name="texto_bienvenida">Bienvenidos a la app del clima, selecciona la opción</string>
+    <string name="clima_boton_quito">Clima ciudad Quito</string>
+    <string name="clima_boton_cuenca">Clima ciudad Cuenca</string>
+
+    <string name="texto_color">#FFFFFF</string>
 </resources>

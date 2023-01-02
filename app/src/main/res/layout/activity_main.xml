@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#50C170"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,7 +14,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="190dp"
-        android:text="0 grados"
+        android:text="@string/texto_grados"
+        android:textColor="@string/texto_color"
+        android:textSize="96sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,16 +39,20 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="459dp"
-        android:text="Quito" />
+        android:layout_marginBottom="313dp"
+        android:text="@string/texto_ciudad"
+        android:textColor="@string/texto_color"
+        android:textSize="48sp" />
 
     <TextView
         android:id="@+id/txtEstadoClima"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="403dp"
-        android:text="Nublado" />
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="201dp"
+        android:text="@string/texto_estado"
+        android:textColor="@string/texto_color"
+        android:textSize="48sp" />
 
 </RelativeLayout>
